@@ -1,0 +1,354 @@
+body
+  //background-color: #ffffff
+  height: 100%
+  h1.Car_Name, #light_controls b
+    color: #444444
+  &.dark
+    background-color: #222222
+    h1.Car_Name, #light_controls b
+      color: #aaaaaa
+    #menu
+      span
+        background-image: url("../../assets/logo/white.png")
+    #copyright
+      a
+        color: #aaaaaa
+  &.default
+    background-color: #ffffff
+  &.light
+    background-color: #aaaaaa
+
+#page
+  height: 100%
+
+h1.Car_Name
+  float: left
+  margin: 24px 0 0 16px
+
+#menu
+  display: block
+  a
+    float: left
+  span
+    width: 80px
+    height: 80px
+    display: block
+    margin: 20px
+    margin-left: 40px
+    background-image: url("../../assets/logo/black.png")
+
+#MainCanvas
+  display: block
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: -10
+
+
+#Configure
+  padding: 0
+  height: 90%
+  overflow-y: hidden
+  #preview
+    background-color: #ffffff
+    min-height: 300px
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.4)
+    max-height: 100%
+    //border-radius: 1rem
+    overflow: hidden
+  #pallets,  #swatches
+    background: #f0f0f0
+    position: relative
+    div
+      padding: 1rem 2rem
+      box-sizing: border-box
+      &.extras
+        padding: 1rem
+  #pallets
+    //min-height: 100%
+    overflow-y: scroll
+
+  #pallets
+    border-right: 1px solid #ddd
+    border-left: 1px solid #fff
+    overflow-y: scroll
+    .button
+      margin-bottom: 0
+      margin-left: 1rem
+  #swatches
+    background: #ffffff
+    overflow-y: scroll
+    height: 100%
+    .swatch_coll
+      display: none
+      //background-color: red
+  .pallet
+    display: block
+    clear: both
+    width: 100%
+    margin-bottom: 1.5rem
+    .prev
+      display: block
+      height: 60px
+      width: 100%
+      background-color: #aaa
+      float: left
+      border: 2px solid #fff
+      border-radius: 1rem
+    .detail
+      float: left
+      padding-left: 12px
+  .controls
+    clear: both
+    //position: absolute
+    //bottom: 0
+    //right: 1rem
+    background-color: #dddddd
+    padding: 0.5rem 1rem
+    font-weight: bold
+    border-top: 1px solid #ffffff
+    a
+      text-align: right
+      float: right
+      margin-right: 1rem
+  #des
+    .prev
+      height: 200px
+      padding: 0
+      overflow: hidden
+      canvas
+        width: 100%
+        height: auto
+  hr
+    margin-top: 2px
+  .color_swatch
+    display: block
+    width: 60px
+    height: 60px
+    float: left
+    margin: 10px
+    border-radius: 4px
+    &:hover
+      box-shadow:  0px 1px 8px rgba(0,0,0,0.4)
+  #swatches
+    #designs
+      canvas
+        margin: 10px
+        &:hover
+          box-shadow:  0px 1px 8px rgba(0,0,0,0.4)
+  #attributes
+    border-top: 1px solid #bbbbbb
+    border-left: 1px solid #bbbbbb
+    background-color: #cccccc
+    #current_preview
+      display: block
+      width: 160px
+      height: 160px
+      margin: 20px
+      border: 4px solid white
+      border-radius: 4px
+      float: left
+    .detail
+      float: left
+    .name
+      margin-top: 20px
+      font-size: 24px
+      font-weight: bold
+
+  #mat_clr_swatch
+    font-weight: bold
+    font-size: 14px
+  #mat_clr_catalogue
+    font-weight: normal
+    font-size: 14px
+    margin-left: 10px
+#AboutSaddles
+  text-align: center
+  #logo
+    display: block
+    width: 200px
+    height: 200px
+    margin: 0 auto
+
+#copyright
+  display: block
+  text-align: center
+  font-size: 12px
+  position: absolute
+  bottom: 10px
+  left: 0
+  right: 0
+  a
+    color: #000
+
+#light_controls
+  //display: block
+  position: absolute
+  bottom: 18px
+  left: 0
+  padding: 20px
+  b
+    font-size: 12px
+    margin-top: 8px
+    width: 80px
+
+
+#controls
+  display: block
+  position: absolute
+  bottom: 10px
+  right: 0
+  padding: 20px
+
+.button
+  border-radius: 4px
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2)
+
+@media screen
+  .reveal
+    border-radius: 16px
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2)
+    border: 1px solid rgba(0,0,0,0.4)
+
+@media print, screen and (min-width: 40em)
+.reveal.large
+  max-width: 100%
+
+#min_size
+  z-index: 1000
+
+.clearfix
+  clear: both
+
+
+@media print
+  html.is-reveal-open body
+    //overflow-y: scroll
+    //height: 2000px
+  @page
+    //height: 2000px
+  #page, #Configure
+    display: none
+    overflow-y: scroll
+  #Final
+    display: block
+    top: 10px
+    //overflow-y: scroll
+  .reveal-overlay
+    //overflow-y: scroll
+    //height: 2000px
+  .reveal
+    border: none
+  .close-button
+    display: none
+  .footer
+    font-size: 12px
+    text-align: center
+    position: fixed
+    bottom: 20px
+    left: 0
+    right: 0
+
+
+#design_controls
+  float: left
+  //width: 160px
+
+#previews
+  img
+    height: auto
+  .color_swatch_preview
+    width: 80px
+    height: 80px
+    margin: 12px
+    border-radius: 4px
+  hr
+    max-width: 100%
+  .grid-x
+    page-break-before: always
+
+
+
+
+.lds-spinner
+  color: rgba(255,255,255,0.5)
+  display: inline-block
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 64px
+  height: 64px
+
+.lds-spinner div
+  transform-origin: 32px 32px
+  animation: lds-spinner 1.2s linear infinite
+
+.lds-spinner div:after
+  content: " "
+  display: block
+  position: absolute
+  top: 3px
+  left: 29px
+  width: 5px
+  height: 14px
+  border-radius: 20%
+  background: #888888
+
+.lds-spinner div:nth-child(1)
+  transform: rotate(0deg)
+  animation-delay: -1.1s
+
+.lds-spinner div:nth-child(2)
+  transform: rotate(30deg)
+  animation-delay: -1s
+
+.lds-spinner div:nth-child(3)
+  transform: rotate(60deg)
+  animation-delay: -0.9s
+
+.lds-spinner div:nth-child(4)
+  transform: rotate(90deg)
+  animation-delay: -0.8s
+
+.lds-spinner div:nth-child(5)
+  transform: rotate(120deg)
+  animation-delay: -0.7s
+
+.lds-spinner div:nth-child(6)
+  transform: rotate(150deg)
+  animation-delay: -0.6s
+
+.lds-spinner div:nth-child(7)
+  transform: rotate(180deg)
+  animation-delay: -0.5s
+
+.lds-spinner div:nth-child(8)
+  transform: rotate(210deg)
+  animation-delay: -0.4s
+
+.lds-spinner div:nth-child(9)
+  transform: rotate(240deg)
+  animation-delay: -0.3s
+
+.lds-spinner div:nth-child(10)
+  transform: rotate(270deg)
+  animation-delay: -0.2s
+
+.lds-spinner div:nth-child(11)
+  transform: rotate(300deg)
+  animation-delay: -0.1s
+
+.lds-spinner div:nth-child(12)
+  transform: rotate(330deg)
+  animation-delay: 0s
+
+@keyframes lds-spinner
+  0%
+    opacity: 1
+  
+  100%
+    opacity: 0
+
+

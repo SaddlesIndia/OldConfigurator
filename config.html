@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Seat Configurator - Saddles Design</title>
+    <link rel="stylesheet" type="text/css" href="./frame/foundation/css/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/css/styles.css">
+</head>
+
+<body>
+
+<div id="page">
+
+    <canvas id="MainCanvas"></canvas>
+
+    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+    <div id="menu"><a href="#" data-open="AboutSaddles"><span class="logo"></span></a> <a href="/"><h1 class="Car_Name"></h1></a>
+    </div>
+
+
+    <div id="light_controls">
+        <div class="button-group">
+            <b>Background:&nbsp;</b>
+            <a class="button primary default bg" onclick="setDefaultScheme()">Default</a>
+            <a class="button secondary dark bg" onclick="setDarkScheme()">Dark</a>
+            <a class="button secondary grey bg" onclick="setGreyScheme()">Grey</a>
+            <hr>
+        </div>
+        <div class="button-group">
+            <b>Lighting:&nbsp;</b>
+            <a class="button primary warm lt" onclick="setWarmScheme()">Warm</a>
+            <a class="button secondary neutral lt" onclick="setNeutralScheme()">Neutral</a>
+            <a class="button secondary cool lt" onclick="setCoolScheme()">Cool</a>
+            <hr>
+        </div>
+    </div>
+
+    <div id="controls">
+        <a class="button secondary" href="#" data-open="Reset">Reset</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a id="Config_button" class="button primary" href="#" onclick="ConfigureOpen()" style="display: none">Configure</a>
+        <a class="button success" href="#" onclick="openFinal()">Finalize</a>
+    </div>
+
+    <div id="copyright">
+        <a href="#" data-open="AboutSaddles">
+            <span data-tooltip tabindex="2" title="Made with passion at Saddles India, Bangalore">
+                © Saddles India 2019
+            </span>
+        </a>
+    </div>
+
+    <div id="min_size" class="callout alert" style="display: none;" data-closable>
+        <h5>Window too small</h5>
+        <p>The current window is too small for the configurator to work properly.</p>
+        <p>Please consider increasing the window size.</p>
+        <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+
+</div>
+
+<div id="maps" style="display: none;"></div>
+
+<!-- Configure -->
+<div class="reveal large" id="Configure" data-reveal data-close-on-click="false">
+    <div class="grid-y inner-container">
+        <div class="grid-x cell ">
+            <div id="preview" class="cell small-12 large-4">
+                <canvas id="PreviewCanvas"></canvas>
+            </div>
+            <div id="pallets" class="cell small-6 large-4">
+                <!--Implement Material variations-->
+                <!--<div id="mat" class="pallet">-->
+                <!--<h4>Material</h4>-->
+                <!--<div class="prev"></div>-->
+                <!--<div class="detail">Leather</div>-->
+                <!--</div>-->
+                <div id="des" class="pallet">
+                    <h4>Design</h4>
+                    <div class="prev" onclick="open_design_swatches()">
+                        <canvas id="design_prev_canvas"></canvas>
+                    </div>
+                </div>
+                <div id="col" class="pallet">
+                    <h4>Color</h4>
+                    <h6>Material</h6>
+                    <div id="mat_clr_preview" class="prev" onclick="open_material_color_swatches()"></div>
+                    <div class="extras">
+                        <span id="mat_clr_swatch"></span>
+                        <span id="mat_clr_catalogue"></span>
+                    </div>
+                    <span class="clearfix"></span>
+                    <h6>Thread</h6>
+                    <div id="thread_color_preview" class="prev" onclick="open_thread_color_swatches() "></div>
+                    <div class="extras">
+                        <span id="thr_clr_swatch"></span>
+                    </div>
+                </div>
+
+                <!--Implement Stitching variations-->
+                <!--<div id="sti" class="pallet">-->
+                <!--<h4>Stitch</h4>-->
+                <!--<div class="prev"></div>-->
+                <!--<div class="detail">Details</div>-->
+                <!--<hr>-->
+                <!--</div>-->
+
+            </div>
+            <div id="parameters" class="cell small-6 large-4">
+                <div id="swatches">
+                    <div id="material" class="swatch_coll"></div>
+                    <div id="designs" class="swatch_coll"></div>
+                    <div id="m_colors" class="swatch_coll"></div>
+                    <div id="t_colors" class="swatch_coll"></div>
+                    <div id="stitches" class="swatch_coll"></div>
+                </div>
+                <div id="attributes">
+                    <div id="current_preview"></div>
+                    <div class="detail">
+                        <div id="color_controls">
+                            <div class="name"></div>
+                            <div class="collection"></div>
+                        </div>
+                        <div id="thread_color_controls">
+                            <div class="name"></div>
+                        </div>
+                        <div id="design_controls" class="swatch_coll" style="display: none">
+                            <form>
+                                <div class="grid-container">
+                                    <div class="grid-x">
+                                        <div class="small-12 cell">
+                                            <label>Vertical Scale in cm
+                                                <input id="design_v_input" type="number" min="0" max="20" value="5">
+                                            </label>
+                                            <label>Horizontal Scale in cm
+                                                <input id="design_h_input" type="number" min="0" max="20" value="5">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls cell small-1">
+            <a class="button primary" href="#" onclick="applyConfigurations()">Apply</a>
+            <a class="button secondary" href="#" onclick="ConfigureClose()">Cancel</a>
+        </div>
+    </div>
+    <button class="close-button" aria-label="Close reveal" type="button" onclick="ConfigureClose()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+<div class="large padding-3" id="Final" style="display: none; padding: 2rem">
+    <span id="datetime" class="float-right"></span>
+    <h4>Specifications</h4>
+    <h1 class="Car_Name"></h1>
+    <hr>
+    <div class="grid-x" id="snapshots">
+        <div class="cell small-6 snap" id="snap_1"></div>
+        <div class="cell small-6 snap" id="snap_2"></div>
+    </div>
+    <div class="" id="previews">
+
+    </div>
+    <button class="close-button" aria-label="Close reveal" type="button" onclick="closeFinal()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+<!-- About Saddles India -->
+<div class="reveal" id="AboutSaddles" data-reveal>
+    <img id="logo" src="./assets/200x200.png" alt="">
+    <h1>SADDLES INDIA</h1>
+    <p class="lead"><b>Seat Configurator</b> v2019.02.45</p>
+
+    <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+<!-- Confirm Reset -->
+<div class="reveal" id="Reset" data-reveal>
+    <p class="lead"><b>Are you sure you want to reset?</b></p>
+    <p><b>Note:</b> This will reset all changes, you will loose all customizations, it cannot be undone.</p>
+    <hr>
+    <a class="button primary" href="#" data-close>Cancel</a>
+    <a class="button warning" href="#" onclick="reset_all()">Reset</a>
+    <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+
+<script src="frame/jquery/jquery.min.js"></script>
+<!-- <script>
+    window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.js"><\/script>')
+</script> -->
+<script src="frame/foundation/js/plugins/foundation.core.min.js"></script>
+<script src="frame/foundation/js/plugins/foundation.util.motion.min.js"></script>
+<script src="frame/foundation/js/plugins/foundation.util.keyboard.min.js"></script>
+<script src="frame/foundation/js/foundation.min.js"></script>
+<script src="frame/foundation/js/plugins/foundation.reveal.js"></script>
+<script>
+    $(document).foundation();
+</script>
+<script src="frame/three/three.min.js"></script>
+<script src="frame/three/loaders/GLTFLoader.js"></script>
+<script src="frame/three/loaders/OBJLoader.js"></script>
+<script src="frame/three/controls/OrbitControls.js"></script>
+<script src="frame/three/loaders/RGBELoader.js"></script>
+<script src="frame/three/loaders/HDRCubeTextureLoader.js"></script>
+<script src="frame/three/pmrem/PMREMGenerator.js"></script>
+<script src="frame/three/pmrem/PMREMCubeUVPacker.js"></script>
+
+
+<script type="text/javascript" src="resources/data/colors.data"></script>
+<script type="text/javascript" src="resources/data/thread.data"></script>
+<script type="text/javascript" src="resources/textures/quilts/quilts.data"></script>
+
+<script src="app/init.js" type="text/javascript" defer="defer"></script>
+<script src="app/configurator.js" type="text/javascript" defer="defer"></script>
+<script>
+    // let params = (new URL(document.location)).searchParams;
+    // let name = params.get("car");
+    // console.log(name)
+</script>
+
+</body>
+</html>
