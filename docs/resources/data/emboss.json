@@ -1,0 +1,298 @@
+{
+  "AB": {
+    "tex": "tex/emboss/AB.png",
+    "thumb": "tex/emboss/thumb/AB.jpg",
+    "repeat": [
+      0.92,
+      0.92
+    ]
+  },
+  "B1": {
+    "tex": "tex/emboss/B1.png",
+    "thumb": "tex/emboss/thumb/B1.jpg",
+    "repeat": [
+      0.9,
+      0.9
+    ]
+  },
+  "Basket": {
+    "tex": "tex/emboss/Basket.png",
+    "thumb": "tex/emboss/thumb/Basket.jpg",
+    "repeat": [
+      2.7,
+      2.7
+    ]
+  },
+  "Basket_Weave_9": {
+    "tex": "tex/emboss/Basket_Weave_9.png",
+    "thumb": "tex/emboss/thumb/Basket_Weave_9.jpg",
+    "repeat": [
+      2.7,
+      2.7
+    ]
+  },
+  "Beige 2": {
+    "tex": "tex/emboss/Beige 2.png",
+    "thumb": "tex/emboss/thumb/Beige 2.jpg",
+    "repeat": [
+      8.18,
+      8.18
+    ]
+  },
+  "Corduroy": {
+    "tex": "tex/emboss/Corduroy.png",
+    "thumb": "tex/emboss/thumb/Corduroy.jpg",
+    "repeat": [
+      1.818,
+      1.818
+    ]
+  },
+  "Corduroy_1": {
+    "tex": "tex/emboss/Corduroy_1.png",
+    "thumb": "tex/emboss/thumb/Corduroy_1.jpg",
+    "repeat": [
+      2.5,
+      2.5
+    ]
+  },
+  "Corte": {
+    "tex": "tex/emboss/Corte.png",
+    "thumb": "tex/emboss/thumb/Corte.jpg",
+    "repeat": [
+      2.5,
+      2.5
+    ]
+  },
+  "DiamondQuilt": {
+    "tex": "tex/emboss/DiamondQuilt.png",
+    "thumb": "tex/emboss/thumb/DiamondQuilt.jpg",
+    "repeat": [
+      2.27,
+      2.27
+    ]
+  },
+  "Double_Card": {
+    "tex": "tex/emboss/Double_Card.png",
+    "thumb": "tex/emboss/thumb/Double_Card.jpg",
+    "repeat": [
+      4.09,
+      4.09
+    ]
+  },
+  "Fancy_06": {
+    "tex": "tex/emboss/Fancy_06.png",
+    "thumb": "tex/emboss/thumb/Fancy_06.jpg",
+    "repeat": [
+      2.27,
+      2.27
+    ]
+  },
+  "Fancy_6": {
+    "tex": "tex/emboss/Fancy_6.png",
+    "thumb": "tex/emboss/thumb/Fancy_6.jpg",
+    "repeat": [
+      9.54,
+      9.54
+    ]
+  },
+  "Floral": {
+    "tex": "tex/emboss/Floral.png",
+    "thumb": "tex/emboss/thumb/Floral.jpg",
+    "repeat": [
+      1.54,
+      1.54
+    ]
+  },
+  "Geo": {
+    "tex": "tex/emboss/Geo.png",
+    "thumb": "tex/emboss/thumb/Geo.jpg",
+    "repeat": [
+      6.8,
+      6.8
+    ]
+  },
+  "GeoTec": {
+    "tex": "tex/emboss/GeoTec.png",
+    "thumb": "tex/emboss/thumb/GeoTec.jpg",
+    "repeat": [
+      4,
+      4
+    ]
+  },
+  "LV1": {
+    "tex": "tex/emboss/LV1.png",
+    "thumb": "tex/emboss/thumb/LV1.jpg",
+    "repeat": [
+      2.59,
+      2.59
+    ]
+  },
+  "malibu": {
+    "tex": "tex/emboss/malibu.png",
+    "thumb": "tex/emboss/thumb/malibu.jpg",
+    "repeat": [
+      9.09,
+      9.09
+    ]
+  },
+  "Nappa_Stingray": {
+    "tex": "tex/emboss/Nappa_Stingray.png",
+    "thumb": "tex/emboss/thumb/Nappa_Stingray.jpg",
+    "repeat": [
+      2.72,
+      2.72
+    ]
+  },
+  "P1": {
+    "tex": "tex/emboss/P1.png",
+    "thumb": "tex/emboss/thumb/P1.jpg",
+    "repeat": [
+      1.818,
+      1.818
+    ]
+  },
+  "Pink_2": {
+    "tex": "tex/emboss/Pink_2.png",
+    "thumb": "tex/emboss/thumb/Pink_2.jpg",
+    "repeat": [
+      9.54,
+      9.54
+    ]
+  },
+  "PLG_0010": {
+    "tex": "tex/emboss/PLG_0010.png",
+    "thumb": "tex/emboss/thumb/PLG_0010.jpg",
+    "repeat": [
+      4.54,
+      4.54
+    ]
+  },
+  "PLG_0015": {
+    "tex": "tex/emboss/PLG_0015.png",
+    "thumb": "tex/emboss/thumb/PLG_0015.jpg",
+    "repeat": [
+      4.54,
+      4.54
+    ]
+  },
+  "PLG_0154": {
+    "tex": "tex/emboss/PLG_0154.png",
+    "thumb": "tex/emboss/thumb/PLG_0154.jpg",
+    "repeat": [
+      3.8,
+      3.8
+    ]
+  },
+  "Puzzle_Weave": {
+    "tex": "tex/emboss/Puzzle_Weave.png",
+    "thumb": "tex/emboss/thumb/Puzzle_Weave.jpg",
+    "repeat": [
+      9.09,
+      9.09
+    ]
+  },
+  "Pyramid": {
+    "tex": "tex/emboss/Pyramid.png",
+    "thumb": "tex/emboss/thumb/Pyramid.jpg",
+    "repeat": [
+      2.77,
+      2.77
+    ]
+  },
+  "Rose2": {
+    "tex": "tex/emboss/Rose2.png",
+    "thumb": "tex/emboss/thumb/Rose2.jpg",
+    "repeat": [
+      0.909,
+      0.909
+    ]
+  },
+  "Salmao": {
+    "tex": "tex/emboss/Salmao.png",
+    "thumb": "tex/emboss/thumb/Salmao.jpg",
+    "repeat": [
+      7.72,
+      7.72
+    ]
+  },
+  "Sea_Scales": {
+    "tex": "tex/emboss/Sea_Scales.png",
+    "thumb": "tex/emboss/thumb/Sea_Scales.jpg",
+    "repeat": [
+      12.72,
+      12.72
+    ]
+  },
+  "Squared Alligator": {
+    "tex": "tex/emboss/Squared Alligator.png",
+    "thumb": "tex/emboss/thumb/Squared Alligator.jpg",
+    "repeat": [
+      0.68,
+      0.68
+    ]
+  },
+  "Tortuga": {
+    "tex": "tex/emboss/Tortuga.png",
+    "thumb": "tex/emboss/thumb/Tortuga.jpg",
+    "repeat": [
+      3.8,
+      3.8
+    ]
+  },
+  "Tree_bark": {
+    "tex": "tex/emboss/Tree_bark.png",
+    "thumb": "tex/emboss/thumb/Tree_bark.jpg",
+    "repeat": [
+      1.36,
+      1.36
+    ]
+  },
+  "Tresse 09": {
+    "tex": "tex/emboss/Tresse 09.png",
+    "thumb": "tex/emboss/thumb/Tresse 09.jpg",
+    "repeat": [
+      6.59,
+      6.59
+    ]
+  },
+  "Tresse 11": {
+    "tex": "tex/emboss/Tresse 11.png",
+    "thumb": "tex/emboss/thumb/Tresse 11.jpg",
+    "repeat": [
+      3.09,
+      3.09
+    ]
+  },
+  "Tresse 12": {
+    "tex": "tex/emboss/Tresse 12.png",
+    "thumb": "tex/emboss/thumb/Tresse 12.jpg",
+    "repeat": [
+      5.45 ,
+      5.45
+    ]
+  },
+  "Wavy_Diamond": {
+    "tex": "tex/emboss/Wavy_Diamond.png",
+    "thumb": "tex/emboss/thumb/Wavy_Diamond.jpg",
+    "repeat": [
+      1.9,
+      1.9
+    ]
+  },
+  "Weave": {
+    "tex": "tex/emboss/Weave.png",
+    "thumb": "tex/emboss/thumb/Weave.jpg",
+    "repeat": [
+      5.90,
+      5.90
+    ]
+  },
+  "Y2": {
+    "tex": "tex/emboss/Y2.png",
+    "thumb": "tex/emboss/thumb/Y2.jpg",
+    "repeat": [
+      2.54,
+      2.54
+    ]
+  }
+}
