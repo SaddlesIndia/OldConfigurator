@@ -1,0 +1,48 @@
+body {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+#options a {
+  display: block;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+#options a img {
+  width: 100%;
+  height: auto;
+}
+#options a:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+h1, h3, h5 {
+  text-align: center;
+}
+
+#copyright {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+#copyright a {
+  color: #000;
+  text-shadow: 0 1px 1px #ffffff;
+}
+
+#AboutSaddles {
+  text-align: center;
+}
+#AboutSaddles #logo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=base_styles.css.map */

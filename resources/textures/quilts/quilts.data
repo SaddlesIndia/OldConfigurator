@@ -1,0 +1,344 @@
+let quilts = {
+  "sadequ01": {
+    "name": "Squares",
+    "path": "pattern-1.sdq",
+    "scale": [
+      5,
+      5
+    ],
+    "category": "Quilting"
+  },
+  "sadequ03": {
+    "name": "Square Diamond",
+    "path": "pattern-3.sdq",
+    "scale": [
+      5,
+      5
+    ],
+    "category": "Quilting"
+  },
+  "sadequ04": {
+    "name": "Flat Diamonds",
+    "path": "pattern-4.sdq",
+    "scale": [
+      5,
+      5
+    ],
+    "category": "Quilting"
+  },
+  "sadequ05": {
+    "name": "Flat Diamonds",
+    "path": "diamond1.sdq",
+    "scale": [
+      5,
+      5
+    ],
+    "category": "Quilting"
+  },
+  "sadequ06": {
+    "name": "Flat Diamonds",
+    "path": "diamond2.sdq",
+    "scale": [
+      5,
+      5
+    ],
+    "category": "Quilting"
+  },
+  "sadequ07": {
+    "name": "Flat Diamonds",
+    "path": "diamond3.sdq",
+    "scale": [
+      5,
+      5
+    ],
+    "category": "Quilting"
+  },
+  "sadequ08": {
+    "name": "Flat Diamonds",
+    "path": "square1.sdq",
+    "scale": [
+      5,
+      5
+    ],
+    "category": "Quilting"
+  },
+  "sadequ09": {
+    "name": "Flat Diamonds",
+    "path": "diamond5.sdq",
+    "scale": [
+      5,
+      5
+    ],
+    "category": "Quilting"
+  },
+    "sadeq010": {
+    "name": "Parallel Bridge",
+    "path": "bridge-1.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq011": {
+    "name": "Parallel Bridge 2",
+    "path": "bridge-2.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq012": {
+    "name": "Parallel Bridge 3",
+    "path": "bridge-3.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq013": {
+    "name": "Parallel Bridge 4",
+    "path": "bridge-4.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq014": {
+    "name": "Parallel Bridge 5",
+    "path": "bridge-5.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq015": {
+    "name": "Parallel Bridge 6",
+    "path": "bridge-6.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq016": {
+    "name": "WAVE Horizontal",
+    "path": "Sin_H.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq017": {
+    "name": "WAVE Verical",
+    "path": "Sin_V.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq018": {
+    "name": "Diagonal",
+    "path": "diag_sq.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq019": {
+    "name": "Vertical",
+    "path": "vertical.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq020": {
+    "name": "Horizontal",
+    "path": "horizontal.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq021": {
+    "name": "Hexagon",
+    "path": "hex.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq022": {
+    "name": "Wave1",
+    "path": "waves_1.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq023": {
+    "name": "Wave2",
+    "path": "waves_2.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq024": {
+    "name": "Wave3",
+    "path": "waves_3.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq025": {
+    "name": "Wave4",
+    "path": "waves_4.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq026": {
+    "name": "fence1",
+    "path": "fence_1.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq027": {
+    "name": "fence2",
+    "path": "fence_2.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq028": {
+    "name": "fence2",
+    "path": "fence_2.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq029": {
+    "name": "fence3",
+    "path": "fence_3.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq030": {
+    "name": "fence4",
+    "path": "fence_4.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq031": {
+    "name": "fence5",
+    "path": "fence_5.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq032": {
+    "name": "triangle1",
+    "path": "triangles_1.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq033": {
+    "name": "Diagonal1",
+    "path": "diagonal_1.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq034": {
+    "name": "Diagonal2",
+    "path": "diagonal_2.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq035": {
+    "name": "duster",
+    "path": "duster.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq036": {
+    "name": "duster2",
+    "path": "duster patt1.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq037": {
+    "name": "duster3",
+    "path": "duster patt2.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq038": {
+    "name": "duster4",
+    "path": "duster patt3.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  },
+    "sadeq039": {
+    "name": "duster5",
+    "path": "duster patt4.sdq",
+    "scale": [
+      10,
+      10
+    ],
+    "category": "Quilting"
+  }
+}

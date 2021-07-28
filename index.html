@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Seat Configurator - Saddles Design</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="./frame/foundation/css/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/css/base_styles.css">
+
+
+</head>
+<body>
+
+<h5>Saddles India</h5>
+<h1>Seat Configurator</h1>
+<h3>Select a compatible seat option from the choices below.</h3>
+<div class="grid-x" id="options">
+    <div class="small-4"><a href="config?car=current"><img src="assets/images/Ford_EcoSport.png" alt="">Current</a></div>
+    <div class="small-4"><a href="config?car=plane"><img src="assets/images/plane.png" alt="">plane</a></div>
+    <div class="small-4"><a href="config?car=ecosport"><img src="assets/images/Ford_EcoSport.png" alt="">Ford EcoSport</a></div>
+    <div class="small-4"><a href="config?car=ertiga"><img src="assets/images/Maruti_Suzuki_ERTIGA.png" alt="">Maruti Suzuki Ertiga</a></div>
+    <div class="small-4"><a href="config?car=patrol"><img src="assets/images/Nissan_Patrol.png" alt="">Nissan Patrol</a></div>
+    <div class="small-4"><a href="config?car=qasqai"><img src="assets/images/Nissan_Qasqai.png" alt="">Nissian Qasqai</a></div>
+    <div class="small-4"><a href="config?car=tucson"><img src="assets/images/tucson.png" alt="">Hyundai Tucson</a></div>
+    <div class="small-4"><a href="config?car=vwt6"><img src="assets/images/VW_T6.png" alt="">VW T6</a></div>
+    <div class="small-4"><a href="config?car=jazz"><img src="assets/images/Honda_Jazz.png" alt="">Honda Jazz</a></div>
+    <div class="small-4"><a href="config?car=dmax"><img src="assets/images/DMax.png" alt="">Isuzu D-Max</a></div>
+    <div class="small-4"><a href="config?car=scross"><img src="assets/images/Suzuki_SCross.png" alt="">Suzuki S-Cross</a></div>
+</div>
+<div id="copyright">
+    <a href="#" data-open="AboutSaddles">
+            <span data-tooltip tabindex="2" title="Made with passion at Saddles India, Bangalore">
+                © Saddles India 2019
+            </span>
+    </a>
+</div>
+<!-- About Saddles India -->
+<div class="reveal" id="AboutSaddles" data-reveal>
+    <img id="logo" src="./assets/200x200.png" alt="">
+    <h1>SADDLES INDIA</h1>
+    <p class="lead"><b>Seat Configurator</b> v2019.01.45</p>
+
+    <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<script src="frame/jquery/jquery.min.js"></script>
+<!-- <script>
+    window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.js"><\/script>')
+</script> -->
+<script src="frame/foundation/js/plugins/foundation.core.min.js"></script>
+<script src="frame/foundation/js/plugins/foundation.util.motion.min.js"></script>
+<script src="frame/foundation/js/plugins/foundation.util.keyboard.min.js"></script>
+<script src="frame/foundation/js/foundation.min.js"></script>
+<script src="frame/foundation/js/plugins/foundation.reveal.js"></script>
+
+
+<script>
+    $(document).foundation();
+</script>
+
+</body>
+</html>
