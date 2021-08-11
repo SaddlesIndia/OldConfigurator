@@ -1,0 +1,157 @@
+{
+  "Honda": {
+    "Jazz": {
+      "frame": "/mesh/Jazz/Plastic.obj",
+      "chrome": "/mesh/Jazz/Chrome.obj",
+      "thread": "",
+      "shadow": "/mesh/Jazz/Shadow.obj",
+      "mesh": [
+        {
+          "path": "/mesh/Jazz/Leather.000.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.001.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": ""
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.002.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.003.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.004.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.005.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.006.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.007.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.008.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.009.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        }
+      ]
+    },
+    "Amaze": {
+      "frame": "/mesh/Amaze/Plastic.obj",
+      "thread": "",
+      "shadow": "/mesh/Amaze/Shadow.obj",
+      "mesh": [
+        {
+          "path": "/mesh/Amaze/Leather.000.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Amaze/Leather.001.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": ""
+          }
+        },
+        {
+          "path": "/mesh/Amaze/Leather.002.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Amaze/Leather.003.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Amaze/Leather.004.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Amaze/Leather.005.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Amaze/Leather.006.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Amaze/Leather.007.obj",
+          "color": "#373b3d",
+          "quilt": {
+            "enabled": false,
+            "Default": "/m

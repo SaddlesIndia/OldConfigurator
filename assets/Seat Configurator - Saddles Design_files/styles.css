@@ -1,0 +1,152 @@
+body {
+  background-color: #fff;
+  height: 100%;
+}
+
+#page {
+  height: 100%;
+}
+
+#menu {
+  display: block;
+}
+#menu img {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+}
+
+#MainCanvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+}
+
+#Configure {
+  padding: 0;
+  height: 90%;
+}
+#Configure #preview {
+  background-color: #0a0a0a;
+}
+#Configure #pallets, #Configure #swatches {
+  background: #f0f0f0;
+  position: relative;
+}
+#Configure #pallets div, #Configure #swatches div {
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+#Configure #pallets {
+  min-height: 100%;
+  overflow-y: scroll;
+}
+#Configure .grid-x {
+  height: 100%;
+}
+#Configure #pallets {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #fff;
+}
+#Configure #swatches {
+  background: #ffffff;
+  overflow-y: scroll;
+  height: 100%;
+}
+#Configure .pallet {
+  display: block;
+  clear: both;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+#Configure .pallet .prev {
+  display: block;
+  height: 60px;
+  width: 200px;
+  background-color: #aaa;
+  float: left;
+}
+#Configure .pallet .detail {
+  float: left;
+  padding-left: 12px;
+}
+#Configure .controls {
+  clear: both;
+  bottom: 0;
+  right: 1rem;
+}
+#Configure #des .prev {
+  height: 120px;
+}
+#Configure hr {
+  margin-top: 2px;
+}
+#Configure .color_swatch {
+  display: block;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 10px;
+  border-radius: 4px;
+}
+#Configure .color_swatch:hover {
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.4);
+}
+#Configure #swatches #designs canvas {
+  margin: 10px;
+}
+#Configure #swatches #designs canvas:hover {
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+#AboutSaddles {
+  text-align: center;
+}
+#AboutSaddles #logo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#copyright {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+#copyright a {
+  color: #000;
+}
+
+#controls {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  padding: 20px;
+}
+
+.button {
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.reveal {
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.reveal.large {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

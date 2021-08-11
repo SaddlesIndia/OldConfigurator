@@ -1,0 +1,34 @@
+{
+  "Custom_Diamond": {
+    "tex": "tex/quilts/Custom_Diamond_Nt.jpg",
+    "thumb": "tex/quilts/Custom_Diamond.jpg",
+    "repeat": [
+      1,
+      1
+    ]
+  },
+  "Diamond": {
+    "tex": "tex/quilts/Diamond_Nt.jpg",
+    "thumb": "tex/quilts/Diamond.jpg",
+    "repeat": [
+      1,
+      1
+    ]
+  },
+  "Diamond_DoubleStitch": {
+    "tex": "tex/quilts/Diamond_DoubleStitch_Nt.jpg",
+    "thumb": "tex/quilts/Diamond_DoubleStitch.jpg",
+    "repeat": [
+      1,
+      1
+    ]
+  },
+  "Hexagon": {
+    "tex": "tex/quilts/Hexagon_Nt.jpg",
+    "thumb": "tex/quilts/Hexagon.jpg",
+    "repeat": [
+      1,
+      1
+    ]
+  }
+}

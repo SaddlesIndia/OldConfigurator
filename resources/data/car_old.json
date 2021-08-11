@@ -1,0 +1,799 @@
+{
+  "Honda": {
+    "Jazz": {
+      "frame": "/mesh/Jazz/Plastic.obj",
+      "chrome": "/mesh/Jazz/Chrome.obj",
+      "thread": "",
+      "shadow": "/mesh/Jazz/Shadow.obj",
+      "mesh": [
+        {
+          "path": "/mesh/Jazz/Leather.000.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.001.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": ""
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.002.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.003.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.004.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.005.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.006.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.007.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.008.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.009.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        }
+      ]
+    }
+  },
+  "Toyota": {
+    "Camry": {
+      "frame": "/mesh/Camry/Plastic.obj",
+      "mesh": [
+        {
+          "path": "/mesh/Camry/Leather.000.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.001.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": ""
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.002.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.003.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.004.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.005.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.006.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.007.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.008.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Jazz/Leather.009.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        }
+      ]
+    }
+  },
+  "Mahendra": {
+    "KUV_100": {
+      "frame": "/mesh/Kuv_100/Kuv100_Frame.obj",
+      "mesh": [
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.0.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.1.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.2.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.3.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.4.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.5.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.6.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.7.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.8.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.9.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.10.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.11.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.12.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.13.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.14.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.15.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.16.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.17.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.18.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.19.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.20.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Kuv_100/Kuv100_Island_.21.obj",
+          "#383A3B"
+        ]
+      ]
+    },
+    "XUV_500": {
+      "frame": "/mesh/Xuv_500/Xuv_Frame.obj",
+      "mesh": [
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.0.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.1.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.2.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.3.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.4.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.5.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.6.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.7.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.8.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.9.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.10.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.11.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.12.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.13.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.14.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.15.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.16.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.17.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.18.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.19.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.20.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.21.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.22.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.23.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.24.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.25.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.26.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.27.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.28.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.29.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.30.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.31.obj",
+          "#383A3B"
+        ],
+        [
+          "/mesh/Xuv_500/Xuv_500_Island_.32.obj",
+          "#383A3B"
+        ]
+      ]
+    }
+  },
+  "Hyundai": {},
+  "Maruti Suzuki": {
+    "SCross": {
+      "frame": "/mesh/SCross/Plastic.obj",
+      "chrome": "/mesh/SCross/Chrome.obj",
+      "shadow": "/mesh/SCross/Shadow.obj",
+      "mesh": [
+        {
+          "path": "/mesh/SCross/Leather.000.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/SCross/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.001.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": ""
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.002.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.003.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.004.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.005.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.006.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.007.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.008.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.009.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.010.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.011.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/SCross/Leather.012.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        }
+      ]
+    }
+  },
+  "Mazda": {
+    "mx5": {
+      "frame_shadow": "/mesh/mx5/Plastic.obj",
+      "shadow": "/mesh/mx5/Shadow.obj",
+      "mesh": [
+        {
+          "path": "/mesh/mx5/Leather.000.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/SCross/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.001.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": ""
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.002.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.003.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.004.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.005.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.006.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.007.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.008.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.009.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.010.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.011.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/mx5/Leather.012.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        }
+      ]
+    }
+  },
+  "Fiat": {
+    "500": {
+      "frame": "/mesh/Fiat_500/Plastic.obj",
+      "shadow": "/mesh/Fiat_500/Shadow.obj",
+      "chrome": "/mesh/Fiat_500/Chrome.obj",
+      "mesh": [
+        {
+          "path": "/mesh/Fiat_500/Leather.000.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/SCross/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Fiat_500/Leather.001.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": ""
+          }
+        },
+        {
+          "path": "/mesh/Fiat_500/Leather.002.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Fiat_500/Leather.003.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Fiat_500/Leather.004.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Fiat_500/Leather.005.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Fiat_500/Leather.006.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Fiat_500/Leather.007.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/Fiat_500/Leather.008.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        }
+      ]
+    }
+  },
+  "VW": {
+    "T6": {
+      "frame": "/mesh/VWT6/Plastic.obj",
+      "shadow": "/mesh/VWT6/Shadow.obj",
+      "chrome": "/mesh/VWT6/Chrome.obj",
+      "mesh": [
+        {
+          "path": "/mesh/VWT6/Leather.000.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/SCross/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/VWT6/Leather.001.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": ""
+          }
+        },
+        {
+          "path": "/mesh/VWT6/Leather.002.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/VWT6/Leather.003.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/VWT6/Leather.004.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/VWT6/Leather.005.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/VWT6/Leather.006.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/VWT6/Leather.007.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        },
+        {
+          "path": "/mesh/VWT6/Leather.008.obj",
+          "color": "#BBB2A5",
+          "quilt": {
+            "enabled": false,
+            "Default": "/mesh/Jazz/Leather.000.png"
+          }
+        }
+      ]
+    }
+  }
+}
